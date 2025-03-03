@@ -60,8 +60,8 @@ if (isset($_POST["addLecture"])) {
     <title>AMS - Dashboard</title>
     <link rel="stylesheet" href="resources/assets/css/admin_styles.css">
     <link rel="stylesheet" href="resources/assets/css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 
 </head>
 
@@ -78,7 +78,7 @@ if (isset($_POST["addLecture"])) {
             <div class="table-container">
                 <div class="title" id="showButton">
                     <h2 class="section--title">Manager</h2>
-                    <button class="add"><i class="ri-add-line"></i>Add Manager</button>
+                    <button class="add"><i class='bx bx-plus'></i>Add Manager</button>
                 </div>
                 <div class="table">
                     <table>

@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Manager Dashboard</title>
     <link rel="stylesheet" href="resources/assets/css/styles.css">
     <script defer src="resources/assets/javascript/face_logics/face-api.min.js"></script>
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 </head>
 
@@ -96,9 +96,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             </form>
             <div class="attendance-button">
-                <button id="startButton" class="add">Launch Facial Recognition</button>
-                <button id="endButton" class="add" style="display:none">End Attendance Process</button>
-                <button id="endAttendance" class="add">END Attendance Taking</button>
+                <button id="startButton" class="add"><i class='bx bxs-camera'></i>Launch Facial Recognition</button>
+                <button id="endButton" class="add" style="display:none"><i class='bx bx-x'></i>End Attendance
+                    Process</button>
+                <button id="endAttendance" class="add"><i class='bx bx-x'></i>END Attendance Taking</button>
             </div>
 
             <div class="video-container" style="display:none;">

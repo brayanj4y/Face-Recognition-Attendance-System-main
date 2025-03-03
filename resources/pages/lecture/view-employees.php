@@ -39,7 +39,7 @@ if (!empty($unitCode)) {
     <link href="resources/images/logo/logo light.png" rel="icon">
     <title>Manager Dashboard</title>
     <link rel="stylesheet" href="resources/assets/css/styles.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 </head>
 
 

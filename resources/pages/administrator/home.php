@@ -8,6 +8,7 @@
     <link href="resources/images/logo/logo light.png" rel="icon">
     <title>Dashboard</title>
     <link rel="stylesheet" href="resources/assets/css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 </head>
 
@@ -46,7 +47,7 @@
                                 <h5 class="card--title">Departments</h5>
                                 <h1><?php total_rows("tblunit") ?></h1>
                             </div>
-                            <i class="ri-file-text-line card--icon--lg"></i>
+                            <i class='bx bxs-buildings card--icon--lg'></i>
                         </div>
 
                     </div>
@@ -58,7 +59,7 @@
                                 <h5 class="card--title">Registered Managers</h5>
                                 <h1><?php total_rows('tbllecture') ?></h1>
                             </div>
-                            <i class="ri-user-line card--icon--lg"></i>
+                            <i class='bx bxs-user-detail card--icon--lg'></i>
                         </div>
 
                     </div>
@@ -69,7 +70,7 @@
                 <a href="manage-lecture" style="text-decoration:none;">
                     <div class="title">
                         <h2 class="section--title">Managers</h2>
-                        <button class="add"><i class="ri-add-line"></i>Add Managers</button>
+                        <button class="add"><i class='bx bx-plus'></i>Add Managers</button>
                     </div>
                 </a>
                 <div class="table">
@@ -117,7 +118,7 @@
                 <a href="manage-students" style="text-decoration:none;">
                     <div class="title">
                         <h2 class="section--title">Employees</h2>
-                        <button class="add"><i class="ri-add-line"></i>Add Employees</button>
+                        <button class="add"><i class='bx bx-plus'></i>Add Employees</button>
                     </div>
                 </a>
                 <div class="table">
@@ -163,7 +164,7 @@
                 <a href="create-venue" style="text-decoration:none;">
                     <div class="title">
                         <h2 class="section--title">Offices</h2>
-                        <button class="add"><i class="ri-add-line"></i>Add Offices</button>
+                        <button class="add"><i class='bx bx-plus'></i>Add Offices</button>
                     </div>
                 </a>
                 <div class="table">
@@ -207,7 +208,7 @@
                 <a href="manage-course" style="text-decoration:none;">
                     <div class="title">
                         <h2 class="section--title">Departments</h2>
-                        <button class="add"><i class="ri-add-line"></i>Add Departments</button>
+                        <button class="add"><i class='bx bx-plus'></i>Add Departments</button>
                     </div>
                 </a>
                 <div class="table">

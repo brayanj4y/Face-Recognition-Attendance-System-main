@@ -63,6 +63,7 @@ if (isset($_POST["addVenue"])) {
     <link rel="stylesheet" href="resources/assets/css/admin_styles.css">
     <link rel="stylesheet" href="resources/assets/css/styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 </head>
 
 <body>
@@ -82,7 +83,7 @@ if (isset($_POST["addVenue"])) {
                             <option value="free">Free</option>
                             <option value="scheduled">Scheduled</option>
                         </select>
-                        <button id="addClass1" class="add show-form"><i class="ri-add-line"></i>Add Meeting
+                        <button id="addClass1" class="add show-form"><i class='bx bx-plus'></i>Add Meeting
                             room</button>
                     </div>
                 </div>
@@ -135,7 +136,7 @@ if (isset($_POST["addVenue"])) {
             <div class="table-container">
                 <div class="title" id="addClass2">
                     <h2 class="section--title">Meeting Room</h2>
-                    <button class="add show-form"><i class="ri-add-line"></i>Add Meeting room</button>
+                    <button class="add show-form"><i class='bx bx-plus'></i>Add Meeting room</button>
                 </div>
 
                 <div class="table">

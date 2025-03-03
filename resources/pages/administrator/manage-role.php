@@ -101,6 +101,7 @@ if (isset($_POST["addFaculty"])) {
     <link rel="stylesheet" href="resources/assets/css/admin_styles.css">
     <link rel="stylesheet" href="resources/assets/css/styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 </head>
 
 <body>
@@ -125,10 +126,10 @@ if (isset($_POST["addFaculty"])) {
 
                         <div class="card--data">
                             <div class="card--content">
-                                <button class="add"><i class="ri-add-line"></i>Add Role</button>
+                                <button class="add"><i class='bx bx-plus'></i>Add Role</button>
                                 <h1><?php total_rows('tblcourse') ?> Role</h1>
                             </div>
-                            <i class="ri-user-2-line card--icon--lg"></i>
+                            <i class='bx bxs-group card--icon--lg'></i>
                         </div>
 
                     </div>
@@ -136,10 +137,10 @@ if (isset($_POST["addFaculty"])) {
 
                         <div class="card--data">
                             <div class="card--content">
-                                <button class="add"><i class="ri-add-line"></i>Add Department</button>
+                                <button class="add"><i class='bx bx-plus'></i>Add Department</button>
                                 <h1><?php total_rows('tblunit') ?> Department</h1>
                             </div>
-                            <i class="ri-file-text-line card--icon--lg"></i>
+                            <i class='bx bxs-buildings card--icon--lg'></i>
                         </div>
 
                     </div>
@@ -148,10 +149,10 @@ if (isset($_POST["addFaculty"])) {
 
                         <div class="card--data">
                             <div class="card--content">
-                                <button class="add"><i class="ri-add-line"></i>Add Office Location</button>
+                                <button class="add"><i class='bx bx-plus'></i>Add Office Location</button>
                                 <h1><?php total_rows("tblfaculty") ?> Office Location </h1>
                             </div>
-                            <i class="ri-user-line card--icon--lg"></i>
+                            <i class='bx bxs-user-detail card--icon--lg'></i>
                         </div>
 
                     </div>

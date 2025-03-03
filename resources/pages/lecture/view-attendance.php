@@ -39,7 +39,7 @@ if (!empty($unitCode)) {
     <link href="resources/images/logo/logo light.png" rel="icon">
     <title>Manager Dashboard</title>
     <link rel="stylesheet" href="resources/assets/css/styles.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 </head>
 
 
@@ -71,7 +71,10 @@ if (!empty($unitCode)) {
                 </select>
             </form>
 
-            <button class="add" onclick="exportTableToExcel('attendaceTable', '<?php echo $unitCode ?>_on_<?php echo date('Y-m-d'); ?>','<?php echo $coursename ?>', '<?php echo $unitname ?>')">Export Attendance As Excel</button>
+            <button class="add"
+                onclick="exportTableToExcel('attendaceTable', '<?php echo $unitCode ?>_on_<?php echo date('Y-m-d'); ?>','<?php echo $coursename ?>', '<?php echo $unitname ?>')"><i
+                    class='bx bxs-download'></i>Export
+                Attendance As Excel</button>
 
             <div class="table-container">
                 <div class="title">

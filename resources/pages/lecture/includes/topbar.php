@@ -6,7 +6,7 @@
     <div class="search--notification--profile">
         <div id="searchInput" class="search">
             <input type="text" id="searchText" placeholder="Search .....">
-            <button onclick="searchItems()"><i class='bx bxs-search'></i></button>
+            <button onclick="searchItems()"><i class='bx bx-search'></i></button>
         </div>
         <div class="notification--profile">
             <div class="picon lock">
