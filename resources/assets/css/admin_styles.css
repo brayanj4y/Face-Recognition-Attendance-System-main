@@ -33,10 +33,9 @@ body {
     margin-left: 15%;
     transform: translate(-50%, -50%);
     z-index: 1000;
-    background-color: #f1f1f1;
+    background-color: #6A0DAD;
     border-radius: 15px;
     padding: 3rem;
-    overflow-y: scroll;
 }
 
 #addLectureForm {
@@ -57,7 +56,8 @@ body {
     margin-left: 15%;
     transform: translate(-30%, -20%);
     z-index: 1000;
-    background-color: #f1f1f1;
+    background-color: #6A0DAD;
+    color: black;
     border-radius: 15px;
     padding: 1rem;
 }
@@ -210,7 +210,7 @@ body {
     margin-left: 15%;
     transform: translate(-10%, -10%);
     z-index: 1000;
-    background-color: #f1f1f1;
+    background-color: #6A0DAD;
     border-radius: 15px;
     padding: 3rem;
 }
@@ -480,8 +480,8 @@ form select {
     margin: 12px 0;
     border: 1px solid #57287E;
     font-size: 0.8rem;
-    background: #f1f1f1;
-    color: #FFFFFF;
+    background: #6A0DAD;
+    color: black;
     border-radius: 5px;
     transition: border-color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
 }
@@ -489,7 +489,7 @@ form select {
 select:focus,
 input:focus {
     border-color: #9D4EDD;
-    background: #f1f1f1;
+    background: #6A0DAD;
     outline: none;
     box-shadow: 0 0 8px rgba(157, 78, 221, 0.5);
 }
@@ -500,8 +500,8 @@ input:focus {
     justify-content: center;
     gap: 8px;
     padding: 10px;
-    background: #f1f1f1;
-    color: white;
+    background: #6A0DAD;
+    color: black;
     font-size: 0.85rem;
     font-weight: bold;
     text-transform: uppercase;

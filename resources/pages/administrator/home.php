@@ -67,7 +67,7 @@
             </div>
 
             <div class="table-container">
-                <a href="manage-lecture" style="text-decoration:none;">
+                <a href="managers" style="text-decoration:none;">
                     <div class="title">
                         <h2 class="section--title">Managers</h2>
                         <button class="add"><i class='bx bx-plus'></i>Add Managers</button>
@@ -115,7 +115,7 @@
                 </div>
             </div>
             <div class="table-container">
-                <a href="manage-students" style="text-decoration:none;">
+                <a href="manage-employees" style="text-decoration:none;">
                     <div class="title">
                         <h2 class="section--title">Employees</h2>
                         <button class="add"><i class='bx bx-plus'></i>Add Employees</button>
@@ -161,7 +161,7 @@
 
             </div>
             <div class="table-container">
-                <a href="create-venue" style="text-decoration:none;">
+                <a href="create-workspace" style="text-decoration:none;">
                     <div class="title">
                         <h2 class="section--title">Offices</h2>
                         <button class="add"><i class='bx bx-plus'></i>Add Offices</button>
@@ -205,7 +205,7 @@
 
             </div>
             <div class="table-container">
-                <a href="manage-course" style="text-decoration:none;">
+                <a href="manage-role" style="text-decoration:none;">
                     <div class="title">
                         <h2 class="section--title">Departments</h2>
                         <button class="add"><i class='bx bx-plus'></i>Add Departments</button>
