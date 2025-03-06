@@ -28,11 +28,11 @@ function updateTable() {
   };
   xhr.send(
     "courseID=" +
-      encodeURIComponent(selectedCourseID) +
-      "&unitID=" +
-      encodeURIComponent(selectedUnitCode) +
-      "&venueID=" +
-      encodeURIComponent(selectedVenue)
+    encodeURIComponent(selectedCourseID) +
+    "&unitID=" +
+    encodeURIComponent(selectedUnitCode) +
+    "&venueID=" +
+    encodeURIComponent(selectedVenue)
   );
 }
 
@@ -153,6 +153,7 @@ function updateOtherElements() {
         const box = resizedDetections[i].detection.box;
         const drawBox = new faceapi.draw.DrawBox(box, {
           label: result,
+          boxColor: "#6A0DAD", // Set box color to purple
         });
         drawBox.draw(canvas);
       });
@@ -192,7 +193,7 @@ function sendAttendanceDataToServer() {
           } else {
             showMessage(
               response.message ||
-                "An error occurred while recording attendance."
+              "An error occurred while recording attendance."
             );
           }
         } catch (e) {

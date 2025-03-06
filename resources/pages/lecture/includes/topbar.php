@@ -1,6 +1,6 @@
 <section class="header">
     <div class="logo">
-        <span class="logomark"><i class='bx bx-ghost'></i></span>
+        <span class="logomark"><i class='bx bx-calendar'></i></span>
         <h4>FaceSync</h4>
     </div>
     <div class="search--notification--profile">

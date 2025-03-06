@@ -73,7 +73,7 @@ if (!empty($unitCode)) {
 
             <button class="add"
                 onclick="exportTableToExcel('attendaceTable', '<?php echo $unitCode ?>_on_<?php echo date('Y-m-d'); ?>','<?php echo $coursename ?>', '<?php echo $unitname ?>')"><i
-                    class='bx bxs-download'></i>Export
+                    class='bx bxs-download bx-flashing'></i>Export
                 Attendance As Excel</button>
 
             <div class="table-container">
@@ -186,7 +186,7 @@ if (!empty($unitCode)) {
         var currentDate = new Date();
         var formattedDate = currentDate.toLocaleDateString(); // Format the date as needed
 
-        var headerContent = '<p style="font-weight:700;"> Attendance for : ' + courseCode + ' Unit name : ' + unitCode + ' On: ' + formattedDate + '</p>';
+        var headerContent = '<p style="font-weight:700;"> Attendance for : ' + courseCode + ' Department name : ' + unitCode + ' On: ' + formattedDate + '</p>';
         var tbody = document.createElement('tbody');
         var additionalRow = tbody.insertRow(0);
         var additionalCell = additionalRow.insertCell(0);
